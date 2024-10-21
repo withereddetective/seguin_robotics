@@ -19,9 +19,9 @@ def main():
        motor_f()
     if keyboard.read_key() == 's':
       motor_b()
-    if keyboard.read_key() == 's':
+    if keyboard.read_key() == 'a':
       motor_l()
-    if keyboard.read_key() == 's':
+    if keyboard.read_key() == 'd':
       motor_r()
 
 if __name__ == '__main__':
